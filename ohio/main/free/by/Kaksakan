@@ -1,0 +1,90 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Kak.Hub OHİO Script", "GrapeTheme")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Main")
+
+Section:NewButton("Police Ammory Key Card", "Click to teleport to the Blue Key Card", function()
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Try Again Later";
+        Text  = "İf u are not teleported then Key Card is not spawned";
+        Icon  = "rbxthumb://type=Asset&id=17328930447=150&h=150"})
+     Duration = 10;
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(631.613586, 8.56985569, -830.812378, 0, 1, 0, 0, 0, -1, -1, 0, 0)
+end)
+
+local Tab = Window:NewTab("Teleporters")
+local Section = Tab:NewSection("Teleporters")
+
+Section:NewButton("Police Station", "Click to teleport to the Police Station", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(715.064636, 5.04490185, -914.019714, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Bank", "Click to teleport to the Bank", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1074.88184, 5.18038893, -426.472839, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Section:NewButton("Military", "Click to teleport to the Military", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(775.086182, 23.3899441, -1415.78711, 0.193362951, 0.968332767, 0.157931581, 0.980648875, -0.195774496, -0.000293188612, 0.0306350701, 0.154932126, -0.987450004)
+end)
+
+Section:NewButton("Hospital", "Click to teleport to the Hospital", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1126.38477, 5.56904602, -942.149475, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+Section:NewButton("Jewelry ", "Click to teleport to the Jewelry", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1545.33191, 5.42184448, -689.891541, 0.15644598, -0, -0.987686574, 0, 1, -0, 0.987686574, 0, 0.15644598)
+end)
+
+Section:NewButton("Armory 1 ", "Click to teleport to the Armory 1", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1566.9165, 17.9520607, -625.314819, 0.996191859, 0, 0.0871884301, 0, 1, 0, -0.0871884301, 0, 0.996191859)
+end)
+
+Section:NewButton("Armory 2", "Click to teleport to the Armory 2", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(661.911438, 17.9620762, -660.203552, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+Section:NewButton("Black Market", "Click to the teleport to the Black Market", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(656.035522, -15.1382027, -54.2182961, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+local Tab = Window:NewTab("Settings")
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("On - Off Uİ", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+    print("Clicked")
+end)
+
+Section:NewButton("Mobile Keybord", "Use this if u are on MOBİLE", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "By Kaksakan";
+    Text  = "Very Good";
+    Icon  = "rbxthumb://type=Asset&id=17730178070&w=150&h=150"})
+ Duration = 10;
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Youtube";
+    Text  = "Kaksakan_Roblox";
+    Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+ Duration = 10;
+
+ local Tab = Window:NewTab("Credits")
+ local Section = Tab:NewSection("Credits")
+
+ Section:NewLabel("Made By Kaksakan")
+ Section:NewLabel("This Uİ is free = KavoUİ")
+
+ Section:NewButton("My Discord", "Click to copy my Discord server link", function()
+    setclipboard("https://discord.gg/tNf6Fsvk")
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Copyed to the your ClipBoard";
+        Text  = "Go past the link to a browser";
+        Icon  = "rbxthumb://type=Asset&id=17328930447&w=150&h=150"})
+     Duration = 10;
+end)
