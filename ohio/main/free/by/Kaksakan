@@ -54,11 +54,83 @@ Section:NewButton("ATM AutoFarm", "Teleport to ATMs", function()
     
     end)
 
-    local Tab = Window:NewTab("Free Loot Places")
-    local Section = Tab:NewSection("Free Loot Places")
+    local Tab = Window:NewTab("Guns")
+    local Section = Tab:NewSection("Guns")
 
-    Section:NewButton("Free Loot Places 1", "idk", function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(626.105896, 53.2826996, -78.8132401, 2.05039978e-05, 5.49852848e-06, 1.00000012, -0.499974549, 0.866040111, 5.49852848e-06, -0.86604017, -0.499974549, 2.05039978e-05)
+    Section:NewButton("Tommy Gun", "Click to teleport to the Tommy Gun", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1132.87817, 3.39241028, -741.46106, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    Section:NewButton("M4A1", "Click to teleport to the M4A1", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(603.467651, 25.6628113, -922.04425, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    Section:NewButton("Scal L", "Click to teleport to the Scar L", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(792.502625, 78.1733093, -1207.22961, -0.939700961, 0, 0.341998369, 0, 1, 0, -0.341998369, 0, -0.939700961)
+    end)
+
+    Section:NewButton("M249 SAW", "Click to teleport to the M249 SAW", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(654.175781, 22.5020657, -1455.53662, -0.139203906, 0, -0.99026376, 0, 1, 0, 0.99026376, 0, -0.139203906)
+    end)
+
+    Section:NewButton("Glock 18", "Click to teleport to the Glock 18", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(565.558411, 22.5020657, -1484.61975, 0.17595309, 0, 0.984398544, 0, 1, 0, -0.984398544, 0, 0.17595309)
+    end)
+
+    Section:NewButton("Minigun", "Click to teleport to the Minigun", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(364.970764, -5.76497412, -1447.3302, -0.984812617, 0, -0.173621148, 0, 1, 0, 0.173621148, 0, -0.984812617)
+    end)
+
+    Section:NewButton("Gravity Gun", "Click to teleport to the Gravity Gun", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(395.828888, -5.42960501, -1447.86584, 0.173624337, -0, -0.984811902, 0, 1, -0, 0.984811902, 0, 0.173624337)
+    end)
+
+    Section:NewButton("AUG", "Click to teleport to the AUG", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1170.50024, 41.3713837, -772.558594, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+    Section:NewButton("AS Val", "Click to teleport to the AS Val", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(674.248657, -19.3242188, -98.8528214, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("RPK", "Click to teleport to the RPK", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(674.248657, -19.3242188, -83.4528198, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("Saiga 12", "Click to teleport to the Saiga 12", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(674.248657, -19.3242188, -74.6528168, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("Dragunov", "Click to teleport to the Dragunov", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(674.248718, -19.3242149, -65.8528214, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("Acid Gun", "Click to teleport to the Acid Gun", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.376083, -69.3296127, -429.527252, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    end)
+
+    Section:NewButton("RayGun", "Click to teleport to the RayGun", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(148.685471, -98.6296082, -529.280945, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    end)
+
+    Section:NewButton("MP7", "Click to teleport to the MP7", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(622.397522, 38.7204475, -687.080994, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("Barrett M107", "Click to teleport to the Barrett M107", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(594.777954, 38.7267723, -694.020569, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    end)
+
+    Section:NewButton("Deagle", "Click to teleport to the Deagle", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(363.341461, 26.0798492, -259.681396, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+
+    Section:NewButton("Python", "Click to teleport to the Python", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1512.12, 20.5827942, 38.1203537, 0.342042685, -0, -0.939684391, 0, 1, -0, 0.939684391, 0, 0.342042685)
+    end)
+
+    Section:NewButton("RPG", "Click to teleport to the RPG", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1143.73682, 22.5080891, -1322.30591, -0.173624277, 0, -0.984811902, 0, 1, 0, 0.984811902, 0, -0.173624277)
     end)
 
     local Tab = Window:NewTab("Teleporters")
